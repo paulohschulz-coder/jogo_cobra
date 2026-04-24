@@ -90,3 +90,64 @@ navbar-text {
     font-size: 2rem;
     opacity: 0.8;
 }
+
+.label-secao{
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--esmaecido);
+}
+
+.btn-outline-dif{
+    background: var(--fundo-card);
+    border-color: var(--borda);
+    color: var(--esmaecido);
+    font-weight: 600;
+    font-size: 0.85rem;
+    padding: 10px;
+    transition: all 0.2s;
+}
+
+.btn-check:checked + .btn-outline-dif {
+    background: var(--verde-escuro);
+    border-color: var(--verde);
+    color: #FFFFFF;
+}
+
+.btn-outline-dif:hover {
+    background: #1A2E1A !important;
+    border-color: var(--verde) !important;
+    color: var(--verde) !important;
+}
+
+.btn-jogar {
+    font-family: "Press Start 2P", monospace;
+    font-size: 0.85rem;
+    background: var(--verde);
+    color: #0A0F0A;
+    border: none;
+    border-radius: 10px;
+    padding: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    display: block;
+    transition: all 0.2;
+    box-shadow: 0 0 24px rgba(74, 222, 128, 0.3);
+}
+
+.btn-jogar:hover {
+    background: #86EFAC;
+    color:#0A0F0A;
+    box-shadow: 0 0 40px rgba(74, 222, 128, 0.5);
+    transform: translateY(-2px);
+}
+
+.instrucao-item{
+    background: #0F1A0F;
+    border: 1px solid var(--borda);
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 0.82rem;
+    color: var(--esmaecido);
+}
+
