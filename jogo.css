@@ -176,7 +176,7 @@ body {
 
 .btn-reiniciar {
     font-family: "Press Start 2P", monospace;
-    font-size: 0.7rem;
+    font-size: 1.7rem;
     background: var(--verde);
     color: #0A0F0A;
     border: none;
@@ -234,7 +234,7 @@ body {
 .btn-direcao:hover,
 .btn-direcao:active {
     background: #1A2E1A;
-    transition: 1.2S;
+    transition: 0.2S;
 }
 
 
